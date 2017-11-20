@@ -17,7 +17,7 @@ func main() {
 	shots := flag.Int("n", 1, "count of shots")
 	delay := flag.Int("d", 0, "delay in ms")
 	parallel := flag.Int("c", 1, "parallel shoots in time")
-	https := flag.Int("ssl", 0, "parallel shoots in time")
+	https := flag.Int("ssl", 0, "use https schema")
 
 	flag.Parse()
 
