@@ -20,4 +20,4 @@ params:
   - `-p int`
     	port (default -1)
   - `-ssl int`
-      use https schema
+      use https schema (1 to use, 0 or skip for http)
